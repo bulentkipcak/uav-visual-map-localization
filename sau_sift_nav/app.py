@@ -114,11 +114,11 @@ def build_arg_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--map-source",
         choices=["legacy", "sift-master"],
-        default="legacy",
+        default="sift-master",
         help="legacy uses the old map_*/tiles_sift DB; sift-master uses QGIS/SAU CAMPUS/output/SIFT/patches",
     )
     parser.add_argument("--master-patch-dir", default=str(MASTER_PATCH_DIR))
-    parser.add_argument("--send-vision", action=argparse.BooleanOptionalAction, default=True)
+    parser.add_argument("--send-vision", action=argparse.BooleanOptionalAction, default=False)
     parser.add_argument("--send-vision-speed", action=argparse.BooleanOptionalAction, default=False)
     parser.add_argument("--vision-speed-source", choices=["zero", "visual", "local"], default="zero")
     parser.add_argument("--vision-z-source", choices=["zero", "telemetry"], default="zero")

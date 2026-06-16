@@ -47,18 +47,17 @@ tuning_plots*/
 *.log
 ```
 
-## Needs Curation Before Public Release
+## Public Release Notes
 
-- Root-level CSV files should be moved into an examples or report-data folder
-  only if they are intentionally part of the thesis evidence.
-- Legacy scripts such as `match_frame_to_tiles.py` and
-  `match_frame_multiscale.py` live under `legacy/` and should be described as
-  early prototypes.
+- This public thesis repository is a curated export of the development
+  workspace.
+- Curated thesis logs live under `examples/logs/`.
+- Legacy scripts live under `legacy/` and are retained as early prototypes.
 - Large report or design files should be attached to a GitHub release or stored
   externally instead of being committed directly.
 
 ## Notes
 
-The current development history contains large files. For a clean GitHub
-publication, prefer a fresh public history, an orphan branch, or a curated
-export rather than pushing the existing full history.
+The original development workspace contained large generated files and local
+experiment outputs. This repository keeps a clean public history and excludes
+those generated assets through `.gitignore`.

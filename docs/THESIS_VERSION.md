@@ -13,10 +13,16 @@ thesis-2026   frozen thesis submission branch
 develop       future development branch
 ```
 
-Recommended release tag:
+Initial release tag:
 
 ```text
 v1.0.0-thesis
+```
+
+Documentation-only thesis maintenance releases may use:
+
+```text
+v1.0.x-thesis
 ```
 
 ## What This Version Claims
@@ -38,4 +44,3 @@ v1.0.0-thesis
 
 Future branches can add non-SIFT visual localization methods, improved motion
 models, better sensor fusion, and cleaner dataset packaging.
-

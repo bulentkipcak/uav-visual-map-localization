@@ -5,7 +5,7 @@ authors:
   - family-names: "Kipcak"
     given-names: "Bulent"
 type: software
-version: "1.0.0-thesis"
+version: "1.0.1-thesis"
 date-released: "2026-06-16"
 abstract: "SIFT-based image-to-map visual localization for UAVs in a Gazebo and ArduPilot SITL environment."
 keywords:
