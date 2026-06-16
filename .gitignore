@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local config
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Node / dashboard
+dashboard/node_modules/
+dashboard/dist/
+dashboard/src/assets/hero.png
+dashboard/src/assets/react.svg
+dashboard/src/assets/vite.svg
+dashboard/.vite/
+dashboard/.env
+dashboard/.env.*
+
+# Editor / OS noise
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Generated logs and experiment outputs
+archive/
+live_results.csv
+results.csv
+dashboard_*.csv
+live_sift_*.csv
+sift_src2_*.csv
+sift_validation_*.csv
+kalman_tuning_*.csv
+raw_baseline_*.csv
+best_kalman_replay*.csv
+best_visual_kalman*.json
+top3_visual_kalman*.json
+gazebo_truth*.log
+tuning_plots*/
+
+# Large/generated map assets
+map_1x/
+map_1_2x/
+map_1_4x/
+map_3_4x/
+QGIS/SAU CAMPUS/output/
+QGIS/SAU CAMPUS/ROI_[0-9]*.*
+QGIS/**/*.aux.xml
+*.tif
+*.tiff
+*.pkl
+*.npz
+
+# Raw captures and local previews
+data/
+data/*/frames/
+data/**/*.mp4
+frame_*.jpg
+marked_predictions*.jpg
+deneme.png
+EXPORT_GOOGLE_SAT_WM.jpg
+EXPORT_GOOGLE_SAT_WM_preview_2000.jpg
+
+# Heavy local design/report artifacts
+BLENDER/
+*.blend1
+*.docx
+
+# Curated examples are allowed even when their names look like experiment logs.
+!examples/
+!examples/logs/
+!examples/logs/*.csv

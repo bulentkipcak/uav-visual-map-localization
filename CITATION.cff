@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or build on this thesis project, please cite it."
+title: "UAV Visual Map Localization"
+authors:
+  - family-names: "Kipcak"
+    given-names: "Bulent"
+type: software
+version: "1.0.0-thesis"
+date-released: "2026-06-16"
+abstract: "SIFT-based image-to-map visual localization for UAVs in a Gazebo and ArduPilot SITL environment."
+keywords:
+  - UAV
+  - visual localization
+  - image matching
+  - SIFT
+  - Gazebo
+  - ArduPilot
+license: MIT

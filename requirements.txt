@@ -1,0 +1,8 @@
+numpy
+opencv-python
+Pillow
+pymavlink
+fastapi
+uvicorn[standard]
+pydantic
+matplotlib
