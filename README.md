@@ -37,8 +37,8 @@ scripts/                   Dataset and SIFT database build utilities
 tools/                     Offline analysis and report-figure utilities
 vision_debug/              MAVLink/EKF/Gazebo diagnostic tools and notes
 examples/logs/             Curated thesis accuracy logs
-chapter4_outputs/          Selected report analysis outputs
-figures/                   Selected report figures
+examples/experimental_logs/Selected raw experimental integration logs
+chapter4_outputs/          Selected report figures
 legacy/                    Early prototype scripts
 ```
 

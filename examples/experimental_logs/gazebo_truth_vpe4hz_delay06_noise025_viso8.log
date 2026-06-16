@@ -1,0 +1,42 @@
+CONNECT udp:127.0.0.1:14550
+HEARTBEAT target=1/0 mode=GUIDED
+BOOTSTRAP gz=(-0.008,-1.095,66.675) local=(-1.092,-0.026,-66.197) axis=enu speed_source=zero attitude_source=zero pose_delay=0.60s bias=(0.00,0.00) noise_std=0.25 observe_only=False
+GT sent=1 pose=(-1.14,0.07,-66.20) vel=(0.00,0.00,0.00) err=(-0.05,0.10,0.00) local_age=0.00s ekf=-
+STATUSTEXT severity=6 text=No ap_message for mavlink id (264)
+STATUSTEXT severity=6 text=No ap_message for mavlink id (253)
+GT sent=5 pose=(-0.85,0.06,-66.20) vel=(0.00,0.00,0.00) err=(0.24,0.08,-0.00) local_age=0.04s ekf_flags=831 vel_var=0.009 pos_var=0.007
+GT sent=9 pose=(-1.41,-0.20,-66.19) vel=(0.00,0.00,0.00) err=(-0.32,-0.17,0.00) local_age=0.13s ekf_flags=831 vel_var=0.009 pos_var=0.007
+GT sent=14 pose=(-1.17,0.25,-66.19) vel=(0.00,0.00,0.00) err=(-0.09,0.27,-0.01) local_age=0.11s ekf_flags=831 vel_var=0.009 pos_var=0.008
+GT sent=18 pose=(-1.04,0.05,-66.18) vel=(0.00,0.00,0.00) err=(0.05,0.08,-0.01) local_age=0.46s ekf_flags=831 vel_var=0.009 pos_var=0.008
+GT sent=22 pose=(-1.16,-0.23,-66.18) vel=(0.00,0.00,0.00) err=(-0.07,-0.20,0.00) local_age=0.54s ekf_flags=831 vel_var=0.008 pos_var=0.005
+GT sent=27 pose=(-1.43,0.04,-66.19) vel=(0.00,0.00,0.00) err=(-0.35,0.07,0.00) local_age=0.48s ekf_flags=831 vel_var=0.008 pos_var=0.005
+GT sent=31 pose=(-0.88,-0.22,-66.19) vel=(0.00,0.00,0.00) err=(0.21,-0.19,-0.00) local_age=0.50s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=35 pose=(-1.30,-0.40,-66.19) vel=(0.00,0.00,0.00) err=(-0.22,-0.37,0.00) local_age=1.50s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=39 pose=(-1.64,-0.18,-66.19) vel=(0.00,0.00,0.00) err=(-0.56,-0.15,0.00) local_age=2.50s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=44 pose=(-2.07,0.86,-66.19) vel=(0.00,0.00,0.00) err=(-0.99,0.89,0.00) local_age=3.75s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=48 pose=(-2.21,0.78,-66.19) vel=(0.00,0.00,0.00) err=(-1.13,0.80,0.00) local_age=4.75s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=53 pose=(-2.26,0.91,-66.19) vel=(0.00,0.00,0.00) err=(-1.18,0.94,0.00) local_age=6.00s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=57 pose=(-1.78,0.45,-66.19) vel=(0.00,0.00,0.00) err=(-0.70,0.48,0.00) local_age=7.00s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=62 pose=(-0.48,-0.36,-66.19) vel=(0.00,0.00,0.00) err=(0.60,-0.34,0.00) local_age=8.34s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=67 pose=(-0.24,-0.61,-66.19) vel=(0.00,0.00,0.00) err=(0.84,-0.58,0.00) local_age=9.55s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=72 pose=(-0.57,-1.10,-66.19) vel=(0.00,0.00,0.00) err=(0.52,-1.07,0.00) local_age=10.75s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=77 pose=(-1.47,-0.45,-66.19) vel=(0.00,0.00,0.00) err=(-0.38,-0.43,0.00) local_age=11.99s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=81 pose=(-2.76,-0.23,-66.19) vel=(0.00,0.00,0.00) err=(-1.68,-0.20,0.00) local_age=13.00s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=85 pose=(-3.13,0.95,-66.19) vel=(0.00,0.00,0.00) err=(-2.04,0.98,0.00) local_age=14.00s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=90 pose=(-2.21,1.02,-66.19) vel=(0.00,0.00,0.00) err=(-1.13,1.05,0.00) local_age=15.25s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=94 pose=(-0.67,0.65,-66.19) vel=(0.00,0.00,0.00) err=(0.41,0.68,0.00) local_age=16.25s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=99 pose=(-0.77,-0.14,-66.19) vel=(0.00,0.00,0.00) err=(0.31,-0.11,0.00) local_age=17.66s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=104 pose=(-0.87,-0.22,-66.19) vel=(0.00,0.00,0.00) err=(0.21,-0.19,0.00) local_age=18.74s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=108 pose=(-1.73,-0.13,-66.19) vel=(0.00,0.00,0.00) err=(-0.65,-0.10,0.00) local_age=19.75s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=112 pose=(-1.32,0.19,-66.19) vel=(0.00,0.00,0.00) err=(-0.23,0.21,0.00) local_age=20.75s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=117 pose=(-2.35,0.32,-66.19) vel=(0.00,0.00,0.00) err=(-1.26,0.35,0.00) local_age=22.00s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=122 pose=(-1.61,0.59,-66.19) vel=(0.00,0.00,0.00) err=(-0.53,0.61,0.00) local_age=23.38s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=127 pose=(-1.93,-0.15,-66.19) vel=(0.00,0.00,0.00) err=(-0.85,-0.13,0.00) local_age=24.50s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=131 pose=(-1.05,-0.80,-66.19) vel=(0.00,0.00,0.00) err=(0.03,-0.77,0.00) local_age=25.50s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=135 pose=(-0.58,-0.79,-66.19) vel=(0.00,0.00,0.00) err=(0.50,-0.76,0.00) local_age=26.50s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=140 pose=(-0.58,-0.93,-66.19) vel=(0.00,0.00,0.00) err=(0.50,-0.90,0.00) local_age=27.75s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=145 pose=(-0.94,0.12,-66.19) vel=(0.00,0.00,0.00) err=(0.14,0.15,0.00) local_age=29.00s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=150 pose=(-0.37,1.36,-66.19) vel=(0.00,0.00,0.00) err=(0.71,1.39,0.00) local_age=30.25s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=154 pose=(-0.69,2.54,-66.19) vel=(0.00,0.00,0.00) err=(0.39,2.57,0.00) local_age=31.25s ekf_flags=831 vel_var=0.008 pos_var=0.006
+GT sent=159 pose=(-2.15,2.39,-66.19) vel=(0.00,0.00,0.00) err=(0.02,0.33,-0.01) local_age=0.03s ekf_flags=831 vel_var=0.010 pos_var=0.357
+GT sent=164 pose=(-2.93,0.81,-66.18) vel=(0.00,0.00,0.00) err=(-0.47,-1.10,-0.01) local_age=0.33s ekf_flags=831 vel_var=0.207 pos_var=0.016

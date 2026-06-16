@@ -1,4 +1,0 @@
-| scenario | file | independent_gazebo_truth | truth_source | error_column_used | duration_s | samples | mean_error_m | median_error_m | rmse_m | p95_error_m | max_error_m | std_error_m | mean_good_matches | mean_inliers | mean_inlier_ratio | mean_processing_time_s | approx_processing_fps | accepted_count | rejected_count | accepted_ratio | rejected_ratio |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Hover 100 m | sift_observe_100m_hover_60s.csv | True | gazebo | gazebo_error_m | 60.0000 | 255 | 0.1214 | 0.1076 | 0.1416 | 0.2648 | 0.3931 | 0.0728 | 146.9569 | 89.1922 | 0.6070 | 0.2323 | 4.3056 | 0 | 255 | 0.0000 | 1.0000 |
-| Hareket 100 m / ~1 m/s | sift_observe_100m_move_1ms_90s.csv | True | gazebo | gazebo_error_m | 87.0000 | 338 | 0.9019 | 0.3957 | 1.3202 | 2.8715 | 3.5677 | 0.9641 | 202.0237 | 140.7101 | 0.6840 | 0.2384 | 4.1951 | 0 | 338 | 0.0000 | 1.0000 |

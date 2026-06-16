@@ -19,9 +19,9 @@ scripts/
 tools/
 vision_debug/
 examples/logs/
+examples/experimental_logs/
 VISION_NAV.md
 chapter4_outputs/
-figures/
 legacy/
 ```
 
@@ -51,7 +51,8 @@ tuning_plots*/
 
 - This public thesis repository is a curated export of the development
   workspace.
-- Curated thesis logs live under `examples/logs/`.
+- Curated thesis accuracy logs live under `examples/logs/`.
+- Selected raw integration logs live under `examples/experimental_logs/`.
 - Legacy scripts live under `legacy/` and are retained as early prototypes.
 - Large report or design files should be attached to a GitHub release or stored
   externally instead of being committed directly.

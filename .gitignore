@@ -81,3 +81,5 @@ BLENDER/
 !examples/
 !examples/logs/
 !examples/logs/*.csv
+!examples/experimental_logs/
+!examples/experimental_logs/**

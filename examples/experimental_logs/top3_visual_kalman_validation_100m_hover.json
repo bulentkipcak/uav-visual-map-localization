@@ -1,0 +1,38 @@
+[
+  {
+    "KF_MEAS_NOISE_POS_M": 6.0,
+    "KF_PROCESS_ACCEL_NOISE_MPS2": 0.2,
+    "KF_INITIAL_POS_STD_M": 2.0,
+    "KF_INITIAL_VEL_STD_MPS": 1.0,
+    "MAX_INNOVATION_M": 2.0,
+    "MAX_JUMP_M": 3.0,
+    "MAX_PREDICT_AGE_S": 0.4,
+    "MAX_FIX_AGE_S": 0.5,
+    "MIN_INLIERS": 80,
+    "score": 1.2142297442210461
+  },
+  {
+    "KF_MEAS_NOISE_POS_M": 6.0,
+    "KF_PROCESS_ACCEL_NOISE_MPS2": 0.2,
+    "KF_INITIAL_POS_STD_M": 2.0,
+    "KF_INITIAL_VEL_STD_MPS": 1.0,
+    "MAX_INNOVATION_M": 2.0,
+    "MAX_JUMP_M": 3.0,
+    "MAX_PREDICT_AGE_S": 0.5,
+    "MAX_FIX_AGE_S": 0.5,
+    "MIN_INLIERS": 80,
+    "score": 1.2300424453549657
+  },
+  {
+    "KF_MEAS_NOISE_POS_M": 5.0,
+    "KF_PROCESS_ACCEL_NOISE_MPS2": 0.2,
+    "KF_INITIAL_POS_STD_M": 2.0,
+    "KF_INITIAL_VEL_STD_MPS": 1.0,
+    "MAX_INNOVATION_M": 2.0,
+    "MAX_JUMP_M": 3.0,
+    "MAX_PREDICT_AGE_S": 0.4,
+    "MAX_FIX_AGE_S": 0.5,
+    "MIN_INLIERS": 80,
+    "score": 1.2408178784763084
+  }
+]
